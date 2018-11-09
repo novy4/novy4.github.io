@@ -2,7 +2,7 @@ baseurl = "http://blog.novy.pw"
 title = "alex-novacovschi"
 themeDir = "themes"
 theme = "hugo-coder"
-
+publishDir = "docs"
 languagecode = "en"
 
 paginate = 20
