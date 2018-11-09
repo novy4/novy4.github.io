@@ -1,4 +1,4 @@
-baseurl = "http://blog.novy.pw"
+baseurl = "https://novy4.github.io/novy.pw/"
 title = "alex-novacovschi"
 themeDir = "themes"
 theme = "hugo-coder"
