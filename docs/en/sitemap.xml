@@ -62,13 +62,13 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="pl"
-                href="https://novy4.github.io/novy.pw/pl/categories/"
+                hreflang="ru"
+                href="https://novy4.github.io/novy.pw/ru/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="https://novy4.github.io/novy.pw/ru/categories/"
+                hreflang="pl"
+                href="https://novy4.github.io/novy.pw/pl/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -78,13 +78,13 @@
   </url>
   
   <url>
-    <loc>https://novy4.github.io/novy.pw/categories/development/</loc>
+    <loc>https://novy4.github.io/novy.pw/tags/development/</loc>
     <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://novy4.github.io/novy.pw/tags/development/</loc>
+    <loc>https://novy4.github.io/novy.pw/categories/development/</loc>
     <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -96,13 +96,13 @@
   </url>
   
   <url>
-    <loc>https://novy4.github.io/novy.pw/categories/golang/</loc>
+    <loc>https://novy4.github.io/novy.pw/tags/golang/</loc>
     <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://novy4.github.io/novy.pw/tags/golang/</loc>
+    <loc>https://novy4.github.io/novy.pw/categories/golang/</loc>
     <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -125,13 +125,13 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="pl"
-                href="https://novy4.github.io/novy.pw/pl/tags/"
+                hreflang="ru"
+                href="https://novy4.github.io/novy.pw/ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="https://novy4.github.io/novy.pw/ru/tags/"
+                hreflang="pl"
+                href="https://novy4.github.io/novy.pw/pl/tags/"
                 />
     <xhtml:link
                 rel="alternate"

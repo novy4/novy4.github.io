@@ -110,13 +110,13 @@
           <div class="date">
             <span class="posted-on">
               <i class="fas fa-calendar"></i>
-              <time datetime='2014-04-02T00:00:00Z'>
-                April 2, 2014
+              <time datetime='2018-11-12T00:00:00Z'>
+                November 12, 2018
               </time>
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              7 minutes read
+              One minute read
             </span>
           </div>
           <div class="categories">
@@ -143,35 +143,66 @@
       <div>
         
 
-<p>Hugo uses the excellent <a href="http://golang.org/&gt;">go</a> <a href="http://golang.org/pkg/html/template/&gt;">html/template</a> library for
-its template engine. It is an extremely lightweight engine that provides a very
-small amount of logic. In our experience that it is just the right amount of
-logic to be able to create a good static website. If you have used other
-template systems from different languages or frameworks you will find a lot of
-similarities in go templates.</p>
+<h1 id="hello">Hello!</h1>
 
-<p>This document is a brief primer on using go templates. The <a href="http://golang.org/pkg/html/template/&gt;">go docs</a>
-provide more details.</p>
+<p>Welcome to my professional blog, where I would love to share my ideas and my experience with you.</p>
 
-<h2 id="introduction-to-go-templates">Introduction to Go Templates</h2>
+      </div>
 
-<p>Go templates provide an extremely simple template language. It adheres to the
-belief that only the most basic of logic belongs in the template or view layer.
-One consequence of this simplicity is that go templates parse very quickly.</p>
+      <footer>
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "novy4" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </footer>
+    </article>
 
-<p>A unique characteristic of go templates is they are content aware. Variables and
-content will be sanitized depending on the context of where they are used. More
-details can be found in the <a href="http://golang.org/pkg/html/template/&gt;">go docs</a>.</p>
+    
+  </section>
 
-<h2 id="basic-syntax">Basic Syntax</h2>
+      </div>
 
-<p>Go lang templates are html files with the addition of variables and
-functions.</p>
+      <footer class="footer">
+  <section class="container">
+    
+      <p>Enter a text here.</p>
+    
+     © 2018
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+       · 
+      [<a href="https://github.com/luizdepra/hugo-coder/tree/"></a>]
+    
+  </section>
+</footer>
 
-<p><strong>Go variables and functions are accessible within {{ }}</strong></p>
+    </main>
 
-<p>Accessing a predefined variable &ldquo;foo&rdquo;:</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{{ foo }}</pre></div>
+    
+
+  </body>
+
+</html>
+or:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{{ foo }}</pre></div>
 <p><strong>Parameters are separated using spaces</strong></p>
 
 <p>Calling the add function with input of 1, 2:</p>
