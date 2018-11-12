@@ -18,7 +18,7 @@ disqusShortname = "novy4"
     author = "Alex Novacovschi"
     description = "Alex Novacovschi's personal website"
     keywords = "blog,developer,personal"
-    info = "Full Stack DevOps and Magician"
+    info = "DevOps and Automation"
     avatarurl = "images/avatar.jpg"
     footercontent = "Enter a text here."
 
@@ -46,19 +46,14 @@ disqusShortname = "novy4"
     weight = 2
     url = "https://gitlab.com/novy4/"
 [[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
-    weight = 3
-    url = "https://twitter.com/alexnovy/"
-[[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
-    weight = 4
+    weight = 3
     url = "https://www.linkedin.com/in/alexnovacovschi/"
 [[params.social]]
     name = "Medium"
     icon = "fab fa-medium"
-    weight = 5
+    weight = 4
     url = "https://medium.com/@novysf"
 
 [[menu.main]]
@@ -74,7 +69,7 @@ disqusShortname = "novy4"
     weight = 3
     url = "/projects/"
 [[menu.main]]
-    name = "Contact me"
+    name = "Contact"
     weight = 5
     url = "/contact/"
 
@@ -86,9 +81,9 @@ disqusShortname = "novy4"
         # You can configure the theme parameter for each language.
         [languages.en.params]
         author = "Alex Novacovschi"
-        info = "Full Stack DevOps and Magician"
-        description = "Alex Novacovschi's personal website"
-        keywords = "blog,developer,personal"
+        info = "DevOps and Automation"
+        description = "Alex Novacovschi's personal page"
+        keywords = "blog,devops,automation"
 
         [languages.en.menu] # It is possible to change the menu too.
 
@@ -112,15 +107,15 @@ disqusShortname = "novy4"
         url = "/contact/"
 
 
-    [languages.pl]
-        languagename = "Polski"
+    [languages.ru]
+        languagename = "Ruski"
         title = "Alex Novacovschi po ruski"
 
         [languages.pl.params]
             author = "Alex Novacovschi"
             description = "Strona domowa Alex Novacovschi"
             keywords = "blog,developer,strona domowa"
-            info = "Full Stack DevOps i Magik"
+            info = "DevOps and Automation"
 
         [languages.pl.menu]
 

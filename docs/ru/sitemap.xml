@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://novy4.github.io/novy.pw/ru/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://novy4.github.io/novy.pw/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://novy4.github.io/novy.pw/pl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://novy4.github.io/novy.pw/ru/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://novy4.github.io/novy.pw/ru/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://novy4.github.io/novy.pw/pl/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://novy4.github.io/novy.pw/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://novy4.github.io/novy.pw/ru/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://novy4.github.io/novy.pw/ru/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://novy4.github.io/novy.pw/pl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://novy4.github.io/novy.pw/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://novy4.github.io/novy.pw/ru/tags/"
+                />
+  </url>
+  
+</urlset>
