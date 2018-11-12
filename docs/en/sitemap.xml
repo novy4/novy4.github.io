@@ -3,131 +3,131 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://blog.novy.pw/posts/theme-demo/</loc>
+    <loc>https://novy4.github.io/novy.pw/posts/theme-demo/</loc>
     <lastmod>2017-01-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/posts/creating-a-new-theme/</loc>
+    <loc>https://novy4.github.io/novy.pw/posts/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/posts/hugo-template-primer/</loc>
+    <loc>https://novy4.github.io/novy.pw/posts/hugo-template-primer/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/posts/hugoisforlovers/</loc>
+    <loc>https://novy4.github.io/novy.pw/posts/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/posts/migrate-from-jekyll/</loc>
+    <loc>https://novy4.github.io/novy.pw/posts/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/about/</loc>
+    <loc>https://novy4.github.io/novy.pw/about/</loc>
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/</loc>
+    <loc>https://novy4.github.io/novy.pw/</loc>
     <lastmod>2017-01-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://blog.novy.pw/pl/"
+                href="https://novy4.github.io/novy.pw/pl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://blog.novy.pw/"
+                href="https://novy4.github.io/novy.pw/"
                 />
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/categories/</loc>
+    <loc>https://novy4.github.io/novy.pw/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://blog.novy.pw/pl/categories/"
+                href="https://novy4.github.io/novy.pw/pl/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://blog.novy.pw/categories/"
+                href="https://novy4.github.io/novy.pw/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/categories/development/</loc>
+    <loc>https://novy4.github.io/novy.pw/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/tags/development/</loc>
+    <loc>https://novy4.github.io/novy.pw/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/tags/go/</loc>
+    <loc>https://novy4.github.io/novy.pw/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/categories/golang/</loc>
+    <loc>https://novy4.github.io/novy.pw/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/tags/golang/</loc>
+    <loc>https://novy4.github.io/novy.pw/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/tags/hugo/</loc>
+    <loc>https://novy4.github.io/novy.pw/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/posts/</loc>
+    <loc>https://novy4.github.io/novy.pw/posts/</loc>
     <lastmod>2017-01-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/tags/</loc>
+    <loc>https://novy4.github.io/novy.pw/tags/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://blog.novy.pw/pl/tags/"
+                href="https://novy4.github.io/novy.pw/pl/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://blog.novy.pw/tags/"
+                href="https://novy4.github.io/novy.pw/tags/"
                 />
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/tags/templates/</loc>
+    <loc>https://novy4.github.io/novy.pw/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.novy.pw/tags/themes/</loc>
+    <loc>https://novy4.github.io/novy.pw/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

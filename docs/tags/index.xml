@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Alex Novacovschi</title>
-    <link>http://blog.novy.pw/tags/</link>
+    <link>https://novy4.github.io/novy.pw/tags/</link>
     <description>Recent content in Tags on Alex Novacovschi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.novy.pw/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://novy4.github.io/novy.pw/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development</title>
-      <link>http://blog.novy.pw/tags/development/</link>
+      <link>https://novy4.github.io/novy.pw/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.novy.pw/tags/development/</guid>
+      <guid>https://novy4.github.io/novy.pw/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>http://blog.novy.pw/tags/go/</link>
+      <link>https://novy4.github.io/novy.pw/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.novy.pw/tags/go/</guid>
+      <guid>https://novy4.github.io/novy.pw/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>http://blog.novy.pw/tags/golang/</link>
+      <link>https://novy4.github.io/novy.pw/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.novy.pw/tags/golang/</guid>
+      <guid>https://novy4.github.io/novy.pw/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://blog.novy.pw/tags/hugo/</link>
+      <link>https://novy4.github.io/novy.pw/tags/hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.novy.pw/tags/hugo/</guid>
+      <guid>https://novy4.github.io/novy.pw/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Templates</title>
-      <link>http://blog.novy.pw/tags/templates/</link>
+      <link>https://novy4.github.io/novy.pw/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.novy.pw/tags/templates/</guid>
+      <guid>https://novy4.github.io/novy.pw/tags/templates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Themes</title>
-      <link>http://blog.novy.pw/tags/themes/</link>
+      <link>https://novy4.github.io/novy.pw/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.novy.pw/tags/themes/</guid>
+      <guid>https://novy4.github.io/novy.pw/tags/themes/</guid>
       <description></description>
     </item>
     

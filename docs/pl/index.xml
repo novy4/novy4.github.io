@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alex Novacovschi po ruski</title>
-    <link>http://blog.novy.pw/pl/</link>
+    <link>https://novy4.github.io/novy.pw/pl/</link>
     <description>Recent content on Alex Novacovschi po ruski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="http://blog.novy.pw/pl/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://novy4.github.io/novy.pw/pl/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

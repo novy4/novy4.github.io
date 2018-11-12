@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Alex Novacovschi</title>
-    <link>http://blog.novy.pw/tags/hugo/</link>
+    <link>https://novy4.github.io/novy.pw/tags/hugo/</link>
     <description>Recent content in Hugo on Alex Novacovschi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.novy.pw/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://novy4.github.io/novy.pw/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>http://blog.novy.pw/posts/hugoisforlovers/</link>
+      <link>https://novy4.github.io/novy.pw/posts/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.novy.pw/posts/hugoisforlovers/</guid>
+      <guid>https://novy4.github.io/novy.pw/posts/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
