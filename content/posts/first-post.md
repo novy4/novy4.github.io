@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2018-11-12T16:02:23+02:00
 title = "Azure Disk Encryption for Linux VMs"
 slug = "ade-for-linux" 
