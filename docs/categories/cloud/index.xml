@@ -17,7 +17,8 @@
       <pubDate>Mon, 12 Nov 2018 16:02:23 +0200</pubDate>
       
       <guid>https://novy4.github.io/novy.pw/posts/ade-for-linux/</guid>
-      <description>Azure provides disk encryption option for Iaas virtual machines, this is a perfect solution for those who want to keep data encrypted with own keys. Some aspects I would like to clarify here to have a more transparent solution. I have tested and implemented this solution. Ok, lets have some fun&amp;hellip;</description>
+      <description>Azure provides disk encryption option for Iaas virtual machines, this is a perfect solution for those who want to keep data encrypted with own keys. Some aspects I would like to clarify here to have a more transparent solution. I have tested and implemented this solution. Ok, lets have some fun&amp;hellip;
+There are some prerequests before we can start to encrypt our disks. • Azure Disk Encryption is only supported on specific Azure Gallery based Linux server distributions and versions.</description>
     </item>
     
   </channel>
