@@ -18,12 +18,9 @@ Azure provides disk encryption option for Iaas virtual machines, this is a perfe
 
 ## There are some prerequests before we can start to encrypt our disks.
 * Azure Disk Encryption is only supported on specific Azure Gallery based Linux server distributions and versions. For the list of currently supported versions, refer to the Azure Disk Encryption FAQ.
-
 * Azure Disk Encryption requires that your key vault and VMs reside in the same Azure region and subscription.
-
 * Before enabling encryption, the data disks to be encrypted need to be properly listed in /etc/fstab. Use a persistent block device name for this entry, as device names in the "/dev/sdX" format can't be relied upon to be associated with the same disk across reboots, particularly after encryption is applied.
 
-{{ if isset .Params "title" }}<h4>{{ index .Params "title" }}</h4>{{ end }}
 
 
 

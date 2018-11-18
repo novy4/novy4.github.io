@@ -144,14 +144,10 @@
 <h2 id="there-are-some-prerequests-before-we-can-start-to-encrypt-our-disks">There are some prerequests before we can start to encrypt our disks.</h2>
 
 <ul>
-<li><p>Azure Disk Encryption is only supported on specific Azure Gallery based Linux server distributions and versions. For the list of currently supported versions, refer to the Azure Disk Encryption FAQ.</p></li>
-
-<li><p>Azure Disk Encryption requires that your key vault and VMs reside in the same Azure region and subscription.</p></li>
-
-<li><p>Before enabling encryption, the data disks to be encrypted need to be properly listed in /etc/fstab. Use a persistent block device name for this entry, as device names in the &ldquo;/dev/sdX&rdquo; format can&rsquo;t be relied upon to be associated with the same disk across reboots, particularly after encryption is applied.</p></li>
+<li>Azure Disk Encryption is only supported on specific Azure Gallery based Linux server distributions and versions. For the list of currently supported versions, refer to the Azure Disk Encryption FAQ.</li>
+<li>Azure Disk Encryption requires that your key vault and VMs reside in the same Azure region and subscription.</li>
+<li>Before enabling encryption, the data disks to be encrypted need to be properly listed in /etc/fstab. Use a persistent block device name for this entry, as device names in the &ldquo;/dev/sdX&rdquo; format can&rsquo;t be relied upon to be associated with the same disk across reboots, particularly after encryption is applied.</li>
 </ul>
-
-<p>{{ if isset .Params &ldquo;title&rdquo; }}<h4>{{ index .Params &ldquo;title&rdquo; }}</h4>{{ end }}</p>
 
       </div>
 
