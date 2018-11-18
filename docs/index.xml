@@ -22,15 +22,6 @@ There are some prerequests before we can start to encrypt our disks.  Azure Disk
     </item>
     
     <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://novy4.github.io/novy.pw/posts/hugo-template-primer/</link>
-      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://novy4.github.io/novy.pw/posts/hugo-template-primer/</guid>
-      <description>Hello! Welcome to my professional blog, where I would love to share my ideas and my experience with you.</description>
-    </item>
-    
-    <item>
       <title>Theme Demo</title>
       <link>https://novy4.github.io/novy.pw/posts/theme-demo/</link>
       <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
@@ -44,40 +35,6 @@ Deleted text
 This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
 $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
    Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
-    </item>
-    
-    <item>
-      <title>Creating a New Theme</title>
-      <link>https://novy4.github.io/novy.pw/posts/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://novy4.github.io/novy.pw/posts/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://novy4.github.io/novy.pw/posts/hugo-template-primer/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://novy4.github.io/novy.pw/posts/hugo-template-primer/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://novy4.github.io/novy.pw/posts/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://novy4.github.io/novy.pw/posts/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
     </item>
     
     <item>

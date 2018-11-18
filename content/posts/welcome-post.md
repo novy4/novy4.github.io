@@ -1,6 +1,6 @@
 +++
 date = "2018-11-12"
-draft = "false"
+draft = true
 title = "(Hu)go Template Primer"
 slug = "hugo-template-primer"
 tags = [
