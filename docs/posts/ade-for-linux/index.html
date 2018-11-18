@@ -137,12 +137,21 @@
       </header>
 
       <div>
-        <p>Azure provides disk encryption option for Iaas virtual machines, this is a perfect solution for those who want to keep data encrypted with own keys. Some aspects I would like to clarify here to have a more transparent solution. I have tested and implemented this solution. Ok, lets have some fun&hellip;</p>
+        
 
-<p><em>There are some prerequests before we can start to encrypt our disks.
-+ Azure Disk Encryption is only supported on specific Azure Gallery based Linux server distributions and versions. For the list of currently supported versions, refer to the Azure Disk Encryption FAQ.
-+ Azure Disk Encryption requires that your key vault and VMs reside in the same Azure region and subscription.
-+ Before enabling encryption, the data disks to be encrypted need to be properly listed in /etc/fstab. Use a persistent block device name for this entry, as device names in the &ldquo;/dev/sdX&rdquo; format can&rsquo;t be relied upon to be associated with the same disk across reboots, particularly after encryption is applied.</em></p>
+<p>Azure provides disk encryption option for Iaas virtual machines, this is a perfect solution for those who want to keep data encrypted with own keys. Some aspects I would like to clarify here to have a more transparent solution. I have tested and implemented this solution. Ok, lets have some fun&hellip;</p>
+
+<h2 id="there-are-some-prerequests-before-we-can-start-to-encrypt-our-disks">There are some prerequests before we can start to encrypt our disks.</h2>
+
+<ul>
+<li><p>Azure Disk Encryption is only supported on specific Azure Gallery based Linux server distributions and versions. For the list of currently supported versions, refer to the Azure Disk Encryption FAQ.</p></li>
+
+<li><p>Azure Disk Encryption requires that your key vault and VMs reside in the same Azure region and subscription.</p></li>
+
+<li><p>Before enabling encryption, the data disks to be encrypted need to be properly listed in /etc/fstab. Use a persistent block device name for this entry, as device names in the &ldquo;/dev/sdX&rdquo; format can&rsquo;t be relied upon to be associated with the same disk across reboots, particularly after encryption is applied.</p></li>
+</ul>
+
+<p>{{ if isset .Params &ldquo;title&rdquo; }}<h4>{{ index .Params &ldquo;title&rdquo; }}</h4>{{ end }}</p>
 
       </div>
 
