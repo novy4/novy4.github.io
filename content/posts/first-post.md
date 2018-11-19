@@ -40,7 +40,7 @@ Azure provides disk encryption option for Iaas virtual machines, this is a perfe
 ## ADE Workflow diagram
 
 The below diagram details the ADE workflow for IaaS VMs
-![Example image](/images/ade-diagram.jpg)
+![ADE Workflow Diagram](/images/ade-diagram.jpg)
 
 ## ADE WORKFLOW FOR WINDOWS/LINUX VM
 We are using the az vm encryption enable command to enable encryption on a running IaaS virtual machine in Azure.
@@ -51,6 +51,33 @@ Encrypting or disabling encryption may cause the VM to reboot.
 ```
 az keyvault list
 az keyvault update --name "MySecureVault" --resource-group "MySecureRg" --enabled-for-disk-encryption "true"
+az keyvault key create --name “ADEkey” --vault-name “MySecureVault”
+```
+![ADE Keyvault enabled for ADE](/images/ade-keyvault.jpg)
+
+## Encrypt a running VM using BEK+KEK with PowerShell
+
+This method is recommended in case when key-vault and the VM are in the different resource groups.
+Lets login to our subscription:
+```
+Login-AzureRmAccount
+```
+
+Lets set access policies for the keyvault:
+```
+Set-AzureRmKeyVaultAccessPolicy -VaultName 'devUksKeyVault' -ResourceGroupName 'devUksMgtRg' -EnabledForDiskEncryption
+Set-AzureRmKeyVaultAccessPolicy -VaultName 'devUksKeyVault' -ResourceGroupName 'devUksMgtRg' -EnabledForDeployment 
+```
+
+Script that is doing all the magic:
+```
+$rgName = 'testUksADERg';
+$vmName = 'ADEWin01VM';
+$KeyVaultName = 'devUksKeyVault';
+$KeyVault = Get-AzureRmKeyVault -VaultName $KeyVaultName -ResourceGroupName "devUksMgtRg" ;
+$diskEncryptionKeyVaultUrl = $KeyVault.VaultUri;
+$KeyVaultResourceId = $KeyVault.ResourceId; 
+Set-AzureRmVMDiskEncryptionExtension -ResourceGroupName $rgname -VMName $vmName -DiskEncryptionKeyVaultUrl $diskEncryptionKeyVaultUrl -DiskEncryptionKeyVaultId $KeyVaultResourceId -VolumeType "All"
 ```
 
 

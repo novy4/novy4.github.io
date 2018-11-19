@@ -174,7 +174,7 @@
 <h2 id="ade-workflow-diagram">ADE Workflow diagram</h2>
 
 <p>The below diagram details the ADE workflow for IaaS VMs
-<img src="https://novy4.github.io/novy.pw/images/ade-diagram.jpg" alt="Example image" /></p>
+<img src="https://novy4.github.io/novy.pw/images/ade-diagram.jpg" alt="ADE Workflow Diagram" /></p>
 
 <h2 id="ade-workflow-for-windows-linux-vm">ADE WORKFLOW FOR WINDOWS/LINUX VM</h2>
 
@@ -184,7 +184,26 @@ Encrypting or disabling encryption may cause the VM to reboot.</p>
 
 <h4 id="make-sure-we-have-access-to-keyvault-then-let-s-enable-encryption-option-for-it-and-then-let-s-create-a-kek">Make sure we have access to keyvault then let’s enable encryption option for it and then let’s create a KEK.</h4>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">az keyvault list
-az keyvault update --name &#34;MySecureVault&#34; --resource-group &#34;MySecureRg&#34; --enabled-for-disk-encryption &#34;true&#34;</pre></div>
+az keyvault update --name &#34;MySecureVault&#34; --resource-group &#34;MySecureRg&#34; --enabled-for-disk-encryption &#34;true&#34;
+az keyvault key create --name “ADEkey” --vault-name “MySecureVault”</pre></div>
+<p><img src="https://novy4.github.io/novy.pw/images/ade-keyvault.jpg" alt="ADE Keyvault enabled for ADE" /></p>
+
+<h2 id="encrypt-a-running-vm-using-bek-kek-with-powershell">Encrypt a running VM using BEK+KEK with PowerShell</h2>
+
+<p>This method is recommended in case when key-vault and the VM are in the different resource groups.
+Lets login to our subscription:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">Login-AzureRmAccount</pre></div>
+<p>Lets set access policies for the keyvault:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">Set-AzureRmKeyVaultAccessPolicy -VaultName &#39;devUksKeyVault&#39; -ResourceGroupName &#39;devUksMgtRg&#39; -EnabledForDiskEncryption
+Set-AzureRmKeyVaultAccessPolicy -VaultName &#39;devUksKeyVault&#39; -ResourceGroupName &#39;devUksMgtRg&#39; -EnabledForDeployment </pre></div>
+<p>Script that is doing all the magic:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">$rgName = &#39;testUksADERg&#39;;
+$vmName = &#39;ADEWin01VM&#39;;
+$KeyVaultName = &#39;devUksKeyVault&#39;;
+$KeyVault = Get-AzureRmKeyVault -VaultName $KeyVaultName -ResourceGroupName &#34;devUksMgtRg&#34; ;
+$diskEncryptionKeyVaultUrl = $KeyVault.VaultUri;
+$KeyVaultResourceId = $KeyVault.ResourceId; 
+Set-AzureRmVMDiskEncryptionExtension -ResourceGroupName $rgname -VMName $vmName -DiskEncryptionKeyVaultUrl $diskEncryptionKeyVaultUrl -DiskEncryptionKeyVaultId $KeyVaultResourceId -VolumeType &#34;All&#34;</pre></div>
       </div>
 
       <footer>
