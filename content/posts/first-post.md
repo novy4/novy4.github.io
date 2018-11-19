@@ -40,8 +40,7 @@ Azure provides disk encryption option for Iaas virtual machines, this is a perfe
 ## ADE Workflow diagram
 
 The below diagram details the ADE workflow for IaaS VMs
-{{< figure src="/static/ade-diagram.jpg" title="Azure Disk Encryption Diagram" >}}
-![Example image](/static/ade-diagram.jpg)
+![Example image](/static/images/ade-diagram.jpg)
 
 
 
