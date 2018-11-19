@@ -182,26 +182,26 @@
 It is mandatory to snapshot and/or backup a managed disk based VM instance outside of, and prior to enabling Azure Disk Encryption. A snapshot of the managed disk can be taken from the portal, or Azure Backup can be used. Backups ensure that a recovery option is possible in the case of any unexpected failure during encryption.
 Encrypting or disabling encryption may cause the VM to reboot.</p>
 
-<h4 id="make-sure-we-have-access-to-keyvault-then-let-s-enable-encryption-option-for-it-and-then-let-s-create-a-kek">Make sure we have access to keyvault then let’s enable encryption option for it and then let’s create a KEK.</h4>
+<h5 id="make-sure-we-have-access-to-keyvault-then-let-s-enable-encryption-option-for-it-and-then-let-s-create-a-kek">Make sure we have access to keyvault then let’s enable encryption option for it and then let’s create a KEK.</h5>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">az keyvault list
 az keyvault update --name &#34;MySecureVault&#34; --resource-group &#34;MySecureRg&#34; --enabled-for-disk-encryption &#34;true&#34;
 az keyvault key create --name “ADEkey” --vault-name “MySecureVault”</pre></div>
-<h3 id="encrypt-a-running-vm-using-bek-kek-with-azure-cli">Encrypt a running VM using BEK+KEK with Azure CLI</h3>
+<h4 id="encrypt-a-running-vm-using-bek-kek-with-azure-cli">Encrypt a running VM using BEK+KEK with Azure CLI</h4>
 
 <p>This method works only if key-vault and the VM are in the same resource group.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">az vm encryption enable --resource-group &#34;MySecureRg&#34; --name &#34;MySecureVM&#34; --disk-encryption-keyvault  &#34;MySecureVault&#34; --key-encryption-key &#34;MyKEK_URI&#34; --key-encryption-keyvault &#34;MySecureVaultContainingTheKEK&#34; --volume-type [All|OS|Data]</pre></div>
 <p>The syntax for the value of disk-encryption-keyvault parameter is the full identifier string: /subscriptions/[subscription-id-guid]/resourceGroups/[resource-group-name]/providers/Microsoft.KeyVault/vaults/[keyvault-name]
 The syntax for the value of the key-encryption-key parameter is the full URI to the KEK as in: https://[keyvault-name].vault.azure.net/keys/[kekname]/[kek-unique-id]</p>
 
-<h3 id="encrypt-a-running-vm-using-bek-kek-with-powershell">Encrypt a running VM using BEK+KEK with PowerShell</h3>
+<h4 id="encrypt-a-running-vm-using-bek-kek-with-powershell">Encrypt a running VM using BEK+KEK with PowerShell</h4>
 
 <p>This method is recommended in case when key-vault and the VM are in the different resource groups.
 Lets login to our subscription:</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">Login-AzureRmAccount</pre></div>
-<h4 id="lets-set-access-policies-for-the-keyvault">Lets set access policies for the keyvault:</h4>
+<h5 id="lets-set-access-policies-for-the-keyvault">Lets set access policies for the keyvault:</h5>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">Set-AzureRmKeyVaultAccessPolicy -VaultName &#39;MySecureVault&#39; -ResourceGroupName &#39;KeyVaultRg&#39; -EnabledForDiskEncryption
 Set-AzureRmKeyVaultAccessPolicy -VaultName &#39;MySecureVault&#39; -ResourceGroupName &#39;KeyVaultRg&#39; -EnabledForDeployment </pre></div>
-<h4 id="script-that-is-doing-all-the-magic">Script that is doing all the magic:</h4>
+<h5 id="script-that-is-doing-all-the-magic">Script that is doing all the magic:</h5>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">$rgName = &#39;MySecureRg&#39;;
 $vmName = &#39;MySecureVM&#39;;
 $KeyVaultName = &#39;MySecureVault&#39;;
@@ -209,13 +209,13 @@ $KeyVault = Get-AzureRmKeyVault -VaultName $KeyVaultName -ResourceGroupName &#34
 $diskEncryptionKeyVaultUrl = $KeyVault.VaultUri;
 $KeyVaultResourceId = $KeyVault.ResourceId; 
 Set-AzureRmVMDiskEncryptionExtension -ResourceGroupName $rgname -VMName $vmName -DiskEncryptionKeyVaultUrl $diskEncryptionKeyVaultUrl -DiskEncryptionKeyVaultId $KeyVaultResourceId -VolumeType &#34;All&#34;</pre></div>
-<h4 id="verify-that-disks-are-encrypted-with-azure-cli">Verify that disks are encrypted with Azure CLI</h4>
+<h5 id="verify-that-disks-are-encrypted-with-azure-cli">Verify that disks are encrypted with Azure CLI</h5>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">az vm encryption show --name &#34;MySecureVM&#34; --resource-group &#34;MySecureRg&#34;</pre></div>
-<h4 id="enable-encryption-on-a-newly-added-disk-with-azure-cli">Enable encryption on a newly added disk with Azure CLI</h4>
+<h5 id="enable-encryption-on-a-newly-added-disk-with-azure-cli">Enable encryption on a newly added disk with Azure CLI</h5>
 
 <p>The Azure CLI command will automatically provide a new sequence version for you when you run the command to enable encryption. The example uses &ldquo;All&rdquo; for the volume-type parameter. You may need to change the volume-type parameter to OS if you&rsquo;re only encrypting the OS disk. In contrast to Powershell syntax, the CLI does not require the user to provide a unique sequence version when enabling encryption. The CLI automatically generates and uses its own unique sequence version value.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">az vm encryption enable --resource-group &#34;MySecureRg&#34; --name &#34;MySecureVM&#34; --disk-encryption-keyvault  &#34;MySecureVault&#34; --key-encryption-key &#34;MyKEK_URI&#34; --key-encryption-keyvault &#34;MySecureVaultContainingTheKEK&#34; --volume-type All</pre></div>
-<h4 id="disable-encryption-with-azure-cli">Disable encryption with Azure CLI</h4>
+<h5 id="disable-encryption-with-azure-cli">Disable encryption with Azure CLI</h5>
 
 <p>To disable encryption, use the az vm encryption disable command. Disabling data disk encryption on Windows VM when both OS and data disks have been encrypted doesn’t work as expected. Disable encryption on all disks instead.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">az vm encryption disable --name &#34;MySecureVM&#34; --resource-group &#34;MySecureRg&#34; --volume-type [ALL, DATA, OS]</pre></div>

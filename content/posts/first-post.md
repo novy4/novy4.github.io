@@ -47,14 +47,14 @@ We are using the az vm encryption enable command to enable encryption on a runni
 It is mandatory to snapshot and/or backup a managed disk based VM instance outside of, and prior to enabling Azure Disk Encryption. A snapshot of the managed disk can be taken from the portal, or Azure Backup can be used. Backups ensure that a recovery option is possible in the case of any unexpected failure during encryption.
 Encrypting or disabling encryption may cause the VM to reboot.
 
-#### Make sure we have access to keyvault then let’s enable encryption option for it and then let’s create a KEK.
+##### Make sure we have access to keyvault then let’s enable encryption option for it and then let’s create a KEK.
 ```
 az keyvault list
 az keyvault update --name "MySecureVault" --resource-group "MySecureRg" --enabled-for-disk-encryption "true"
 az keyvault key create --name “ADEkey” --vault-name “MySecureVault”
 ```
 
-### Encrypt a running VM using BEK+KEK with Azure CLI
+#### Encrypt a running VM using BEK+KEK with Azure CLI
 
 This method works only if key-vault and the VM are in the same resource group.
 ```
@@ -65,7 +65,7 @@ The syntax for the value of disk-encryption-keyvault parameter is the full ident
 The syntax for the value of the key-encryption-key parameter is the full URI to the KEK as in: https://[keyvault-name].vault.azure.net/keys/[kekname]/[kek-unique-id]
 
 
-### Encrypt a running VM using BEK+KEK with PowerShell
+#### Encrypt a running VM using BEK+KEK with PowerShell
 
 This method is recommended in case when key-vault and the VM are in the different resource groups.
 Lets login to our subscription:
@@ -73,13 +73,13 @@ Lets login to our subscription:
 Login-AzureRmAccount
 ```
 
-#### Lets set access policies for the keyvault:
+##### Lets set access policies for the keyvault:
 ```
 Set-AzureRmKeyVaultAccessPolicy -VaultName 'MySecureVault' -ResourceGroupName 'KeyVaultRg' -EnabledForDiskEncryption
 Set-AzureRmKeyVaultAccessPolicy -VaultName 'MySecureVault' -ResourceGroupName 'KeyVaultRg' -EnabledForDeployment 
 ```
 
-#### Script that is doing all the magic:
+##### Script that is doing all the magic:
 ```
 $rgName = 'MySecureRg';
 $vmName = 'MySecureVM';
@@ -89,19 +89,19 @@ $diskEncryptionKeyVaultUrl = $KeyVault.VaultUri;
 $KeyVaultResourceId = $KeyVault.ResourceId; 
 Set-AzureRmVMDiskEncryptionExtension -ResourceGroupName $rgname -VMName $vmName -DiskEncryptionKeyVaultUrl $diskEncryptionKeyVaultUrl -DiskEncryptionKeyVaultId $KeyVaultResourceId -VolumeType "All"
 ```
-#### Verify that disks are encrypted with Azure CLI
+##### Verify that disks are encrypted with Azure CLI
 
 ```
 az vm encryption show --name "MySecureVM" --resource-group "MySecureRg"
 ```
 
-#### Enable encryption on a newly added disk with Azure CLI
+##### Enable encryption on a newly added disk with Azure CLI
 The Azure CLI command will automatically provide a new sequence version for you when you run the command to enable encryption. The example uses "All" for the volume-type parameter. You may need to change the volume-type parameter to OS if you're only encrypting the OS disk. In contrast to Powershell syntax, the CLI does not require the user to provide a unique sequence version when enabling encryption. The CLI automatically generates and uses its own unique sequence version value.
 ```
 az vm encryption enable --resource-group "MySecureRg" --name "MySecureVM" --disk-encryption-keyvault  "MySecureVault" --key-encryption-key "MyKEK_URI" --key-encryption-keyvault "MySecureVaultContainingTheKEK" --volume-type All
 ```
 
-#### Disable encryption with Azure CLI
+##### Disable encryption with Azure CLI
 
 To disable encryption, use the az vm encryption disable command. Disabling data disk encryption on Windows VM when both OS and data disks have been encrypted doesn’t work as expected. Disable encryption on all disks instead.
 ```
