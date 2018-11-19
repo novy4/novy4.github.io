@@ -12,11 +12,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="https://novy4.github.io/novy.pw/ru/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="pl"
                 href="https://novy4.github.io/novy.pw/pl/categories/"
                 />
@@ -32,11 +27,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="https://novy4.github.io/novy.pw/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="pl"
                 href="https://novy4.github.io/novy.pw/pl/tags/"
                 />
@@ -49,11 +39,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://novy4.github.io/novy.pw/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://novy4.github.io/novy.pw/ru/"
                 />
     <xhtml:link
                 rel="alternate"
