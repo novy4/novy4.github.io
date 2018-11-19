@@ -42,6 +42,19 @@ Azure provides disk encryption option for Iaas virtual machines, this is a perfe
 The below diagram details the ADE workflow for IaaS VMs
 ![Example image](/images/ade-diagram.jpg)
 
+## ADE WORKFLOW FOR WINDOWS/LINUX VM
+We are using the az vm encryption enable command to enable encryption on a running IaaS virtual machine in Azure.
+It is mandatory to snapshot and/or backup a managed disk based VM instance outside of, and prior to enabling Azure Disk Encryption. A snapshot of the managed disk can be taken from the portal, or Azure Backup can be used. Backups ensure that a recovery option is possible in the case of any unexpected failure during encryption.
+Encrypting or disabling encryption may cause the VM to reboot.
+
+#### Make sure we have access to keyvault then let’s enable encryption option for it and then let’s create a KEK.
+```
+az keyvault list
+az keyvault update --name "MySecureVault" --resource-group "MySecureRg" --enabled-for-disk-encryption "true"
+```
+
+
+
 
 
 

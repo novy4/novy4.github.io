@@ -116,7 +116,7 @@
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              2 minutes read
+              3 minutes read
             </span>
           </div>
           <div class="categories">
@@ -176,6 +176,15 @@
 <p>The below diagram details the ADE workflow for IaaS VMs
 <img src="https://novy4.github.io/novy.pw/images/ade-diagram.jpg" alt="Example image" /></p>
 
+<h2 id="ade-workflow-for-windows-linux-vm">ADE WORKFLOW FOR WINDOWS/LINUX VM</h2>
+
+<p>We are using the az vm encryption enable command to enable encryption on a running IaaS virtual machine in Azure.
+It is mandatory to snapshot and/or backup a managed disk based VM instance outside of, and prior to enabling Azure Disk Encryption. A snapshot of the managed disk can be taken from the portal, or Azure Backup can be used. Backups ensure that a recovery option is possible in the case of any unexpected failure during encryption.
+Encrypting or disabling encryption may cause the VM to reboot.</p>
+
+<h4 id="make-sure-we-have-access-to-keyvault-then-let-s-enable-encryption-option-for-it-and-then-let-s-create-a-kek">Make sure we have access to keyvault then let’s enable encryption option for it and then let’s create a KEK.</h4>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">az keyvault list
+az keyvault update --name &#34;MySecureVault&#34; --resource-group &#34;MySecureRg&#34; --enabled-for-disk-encryption &#34;true&#34;</pre></div>
       </div>
 
       <footer>
