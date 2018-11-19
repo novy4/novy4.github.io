@@ -21,6 +21,28 @@ Azure provides disk encryption option for Iaas virtual machines, this is a perfe
 * Azure Disk Encryption requires that your key vault and VMs reside in the same Azure region and subscription.
 * Before enabling encryption, the data disks to be encrypted need to be properly listed in /etc/fstab. Use a persistent block device name for this entry, as device names in the "/dev/sdX" format can't be relied upon to be associated with the same disk across reboots, particularly after encryption is applied.
 
+## Supported scenarios
+* Integration with Azure Key Vault
+* Enable encryption on Windows and Linux IaaS VMs, managed disk, and scale set VMs from the supported Azure Gallery images
+* Backup and restore of encrypted VMs, for both no-KEK and KEK scenarios (KEK - Key Encryption Key)
+* Enable encryption on Linux VM OS and data disks
+* Disable encryption on Linux VM data disks
+* Enable encryption on volumes with mount paths
+
+## The solution doesn't support the following scenarios
+* Basic tier IaaS VMs
+* Disabling encryption on an OS drive for Linux IaaS VMs
+* Disabling encryption on a data drive if the OS drive is encrypted for Linux Iaas VMs
+* IaaS VMs that are created by using the classic VM creation method
+* Enabling encryption on Linux IaaS VMs customer custom images
+* Network File System (NFS)
+
+## ADE Workflow diagram
+
+The below diagram details the ADE workflow for IaaS VMs
+
+
+
 
 
 

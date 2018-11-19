@@ -35,7 +35,7 @@
 
     
 
-    <meta name="generator" content="Hugo 0.50" />
+    <meta name="generator" content="Hugo 0.47.1" />
   </head>
 
   <body class="">
@@ -116,7 +116,7 @@
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              One minute read
+              2 minutes read
             </span>
           </div>
           <div class="categories">
@@ -148,6 +148,32 @@
 <li>Azure Disk Encryption requires that your key vault and VMs reside in the same Azure region and subscription.</li>
 <li>Before enabling encryption, the data disks to be encrypted need to be properly listed in /etc/fstab. Use a persistent block device name for this entry, as device names in the &ldquo;/dev/sdX&rdquo; format can&rsquo;t be relied upon to be associated with the same disk across reboots, particularly after encryption is applied.</li>
 </ul>
+
+<h2 id="supported-scenarios">Supported scenarios</h2>
+
+<ul>
+<li>Integration with Azure Key Vault</li>
+<li>Enable encryption on Windows and Linux IaaS VMs, managed disk, and scale set VMs from the supported Azure Gallery images</li>
+<li>Backup and restore of encrypted VMs, for both no-KEK and KEK scenarios (KEK - Key Encryption Key)</li>
+<li>Enable encryption on Linux VM OS and data disks</li>
+<li>Disable encryption on Linux VM data disks</li>
+<li>Enable encryption on volumes with mount paths</li>
+</ul>
+
+<h2 id="the-solution-doesn-t-support-the-following-scenarios">The solution doesn&rsquo;t support the following scenarios</h2>
+
+<ul>
+<li>Basic tier IaaS VMs</li>
+<li>Disabling encryption on an OS drive for Linux IaaS VMs</li>
+<li>Disabling encryption on a data drive if the OS drive is encrypted for Linux Iaas VMs</li>
+<li>IaaS VMs that are created by using the classic VM creation method</li>
+<li>Enabling encryption on Linux IaaS VMs customer custom images</li>
+<li>Network File System (NFS)</li>
+</ul>
+
+<h2 id="ade-workflow-diagram">ADE Workflow diagram</h2>
+
+<p>The below diagram details the ADE workflow for IaaS VMs</p>
 
       </div>
 
