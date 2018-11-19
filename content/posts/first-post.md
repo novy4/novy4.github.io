@@ -54,7 +54,18 @@ az keyvault update --name "MySecureVault" --resource-group "MySecureRg" --enable
 az keyvault key create --name “ADEkey” --vault-name “MySecureVault”
 ```
 
-## Encrypt a running VM using BEK+KEK with PowerShell
+### Encrypt a running VM using BEK+KEK with Azure CLI
+
+This method works only if key-vault and the VM are in the same resource group.
+```
+az vm encryption enable --resource-group "MySecureRg" --name "MySecureVM" --disk-encryption-keyvault  "MySecureVault" --key-encryption-key "MyKEK_URI" --key-encryption-keyvault "MySecureVaultContainingTheKEK" --volume-type [All|OS|Data]
+```
+
+The syntax for the value of disk-encryption-keyvault parameter is the full identifier string: /subscriptions/[subscription-id-guid]/resourceGroups/[resource-group-name]/providers/Microsoft.KeyVault/vaults/[keyvault-name] 
+The syntax for the value of the key-encryption-key parameter is the full URI to the KEK as in: https://[keyvault-name].vault.azure.net/keys/[kekname]/[kek-unique-id]
+
+
+### Encrypt a running VM using BEK+KEK with PowerShell
 
 This method is recommended in case when key-vault and the VM are in the different resource groups.
 Lets login to our subscription:

@@ -186,7 +186,14 @@ Encrypting or disabling encryption may cause the VM to reboot.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">az keyvault list
 az keyvault update --name &#34;MySecureVault&#34; --resource-group &#34;MySecureRg&#34; --enabled-for-disk-encryption &#34;true&#34;
 az keyvault key create --name “ADEkey” --vault-name “MySecureVault”</pre></div>
-<h2 id="encrypt-a-running-vm-using-bek-kek-with-powershell">Encrypt a running VM using BEK+KEK with PowerShell</h2>
+<h3 id="encrypt-a-running-vm-using-bek-kek-with-azure-cli">Encrypt a running VM using BEK+KEK with Azure CLI</h3>
+
+<p>This method works only if key-vault and the VM are in the same resource group.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">az vm encryption enable --resource-group &#34;MySecureRg&#34; --name &#34;MySecureVM&#34; --disk-encryption-keyvault  &#34;MySecureVault&#34; --key-encryption-key &#34;MyKEK_URI&#34; --key-encryption-keyvault &#34;MySecureVaultContainingTheKEK&#34; --volume-type [All|OS|Data]</pre></div>
+<p>The syntax for the value of disk-encryption-keyvault parameter is the full identifier string: /subscriptions/[subscription-id-guid]/resourceGroups/[resource-group-name]/providers/Microsoft.KeyVault/vaults/[keyvault-name]
+The syntax for the value of the key-encryption-key parameter is the full URI to the KEK as in: https://[keyvault-name].vault.azure.net/keys/[kekname]/[kek-unique-id]</p>
+
+<h3 id="encrypt-a-running-vm-using-bek-kek-with-powershell">Encrypt a running VM using BEK+KEK with PowerShell</h3>
 
 <p>This method is recommended in case when key-vault and the VM are in the different resource groups.
 Lets login to our subscription:</p>
