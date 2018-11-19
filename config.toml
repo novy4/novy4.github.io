@@ -5,6 +5,8 @@ theme = "hugo-coder"
 publishDir = "docs"
 languagecode = "en"
 
+googleAnalytics = "UA-129309923-1"
+
 paginate = 20
 canonifyurls = true
 
