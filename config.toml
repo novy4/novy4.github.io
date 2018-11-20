@@ -14,7 +14,7 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "alexnovy"
+disqusShortname = "https-novy4-github-io-novy-pw"
 
 [params]
     author = "Alex Novacovschi"
