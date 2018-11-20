@@ -53,6 +53,7 @@
     {{ end }}
 
     {{ .Hugo.Generator }}
+    {{ template "_internal/google_analytics.html" . }}
   </head>
 
   <body class="{{ if .Site.Params.rtl }}rtl{{ end }}">
