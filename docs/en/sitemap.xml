@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://novy4.github.io/novy.pw/posts/python-telegram-bot/</loc>
+    <lastmod>2018-11-22T11:07:35+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://novy4.github.io/novy.pw/posts/ade-for-linux/</loc>
     <lastmod>2018-11-12T16:02:23+02:00</lastmod>
   </url>
@@ -29,7 +34,7 @@
   
   <url>
     <loc>https://novy4.github.io/novy.pw/</loc>
-    <lastmod>2018-11-12T16:02:23+02:00</lastmod>
+    <lastmod>2018-11-22T11:07:35+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -71,6 +76,18 @@
   </url>
   
   <url>
+    <loc>https://novy4.github.io/novy.pw/tags/development/</loc>
+    <lastmod>2018-11-22T11:07:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novy4.github.io/novy.pw/categories/development/</loc>
+    <lastmod>2018-11-22T11:07:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://novy4.github.io/novy.pw/tags/encryption/</loc>
     <lastmod>2018-11-12T16:02:23+02:00</lastmod>
     <priority>0</priority>
@@ -84,7 +101,13 @@
   
   <url>
     <loc>https://novy4.github.io/novy.pw/posts/</loc>
-    <lastmod>2018-11-12T16:02:23+02:00</lastmod>
+    <lastmod>2018-11-22T11:07:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novy4.github.io/novy.pw/tags/python/</loc>
+    <lastmod>2018-11-22T11:07:35+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -102,6 +125,12 @@
                 hreflang="en"
                 href="https://novy4.github.io/novy.pw/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://novy4.github.io/novy.pw/tags/telegram/</loc>
+    <lastmod>2018-11-22T11:07:35+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

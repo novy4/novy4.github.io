@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on Alex Novacovschi</title>
-    <link>https://novy4.github.io/novy.pw/tags/development/</link>
-    <description>Recent content in Development on Alex Novacovschi</description>
+    <title>Python on Alex Novacovschi</title>
+    <link>https://novy4.github.io/novy.pw/tags/python/</link>
+    <description>Recent content in Python on Alex Novacovschi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 22 Nov 2018 11:07:35 +0200</lastBuildDate>
     
-	<atom:link href="https://novy4.github.io/novy.pw/tags/development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://novy4.github.io/novy.pw/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

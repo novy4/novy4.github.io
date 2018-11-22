@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Alex Novacovschi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Nov 2018 16:02:23 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 22 Nov 2018 11:07:35 +0200</lastBuildDate>
     
 	<atom:link href="https://novy4.github.io/novy.pw/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Telegram bot on python</title>
+      <link>https://novy4.github.io/novy.pw/posts/python-telegram-bot/</link>
+      <pubDate>Thu, 22 Nov 2018 11:07:35 +0200</pubDate>
+      
+      <guid>https://novy4.github.io/novy.pw/posts/python-telegram-bot/</guid>
+      <description>Introduction Once upon a time I had a need to for a telegram bot that will reposts news from external channels to my own channel to stay up-to-day with news from different sources in one place. Doing some short research, I didn’t found suitable open-source script for my needs and I decided to write my own script on python. It is not ideal, but it works :-)
+There is a library called Telethon  that makes easy to write python applications that can interact with Telegram.</description>
+    </item>
     
     <item>
       <title>Azure Disk Encryption for Linux VMs</title>
