@@ -1,4 +1,4 @@
-baseurl = "https://novy4.github.io/novy.pw/"
+baseurl = "https://novy4.github.io/"
 title = "alex-novacovschi"
 themeDir = "themes"
 theme = "hugo-coder"
@@ -14,7 +14,7 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "https-novy4-github-io-novy-pw"
+disqusShortname = "https-novy4-github-io"
 
 [params]
     author = "Alex Novacovschi"
