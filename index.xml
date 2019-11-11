@@ -71,5 +71,16 @@ Setup Some fun facts about Hugo:
  Built in Go Loosely inspired by Jekyll Primarily developed by spf13 on the train while commuting to and from Manhattan. Coded in Vim using spf13-vim  Have questions or suggestions?</description>
     </item>
     
+    <item>
+      <title>Blockchain Validator - Novy</title>
+      <link>https://www.novy.pw/delegate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.novy.pw/delegate/</guid>
+      <description>Novy - blockchain validator. Stake with me on:
+Mainnets  KAVA Labs Kava Labs has developed a new technology set that combines the benefits and interoperable functionality of Cosmos with DeFi applications traders want today.  Delegate: kavaloper
+Testnets  Regen Network Althea Network E-Money Bitsong Sentinel Celo Network Coda Protocol Near Protocol NuCypher  Lets validate these networks together!</description>
+    </item>
+    
   </channel>
 </rss>
