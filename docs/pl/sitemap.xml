@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://novy4.github.io/pl/</loc>
+    <loc>https://www.novy.pw/pl/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://novy4.github.io/"
+                href="https://www.novy.pw/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="https://novy4.github.io/pl/"
+                href="https://www.novy.pw/pl/"
                 />
   </url>
   
   <url>
-    <loc>https://novy4.github.io/pl/categories/</loc>
+    <loc>https://www.novy.pw/pl/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://novy4.github.io/categories/"
+                href="https://www.novy.pw/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="https://novy4.github.io/pl/categories/"
+                href="https://www.novy.pw/pl/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://novy4.github.io/pl/tags/</loc>
+    <loc>https://www.novy.pw/pl/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://novy4.github.io/tags/"
+                href="https://www.novy.pw/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="https://novy4.github.io/pl/tags/"
+                href="https://www.novy.pw/pl/tags/"
                 />
   </url>
   
