@@ -1,16 +1,98 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://www.novy.pw/en/sitemap.xml</loc>
-		
-	   	<lastmod>2018-11-22T11:07:35+02:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://www.novy.pw/pl/sitemap.xml</loc>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.novy.pw/</loc>
+    <lastmod>2018-11-22T11:07:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/categories/</loc>
+    <lastmod>2018-11-22T11:07:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/categories/development/</loc>
+    <lastmod>2018-11-22T11:07:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/tags/development/</loc>
+    <lastmod>2018-11-22T11:07:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/posts/</loc>
+    <lastmod>2018-11-22T11:07:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/tags/python/</loc>
+    <lastmod>2018-11-22T11:07:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/tags/</loc>
+    <lastmod>2018-11-22T11:07:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/tags/telegram/</loc>
+    <lastmod>2018-11-22T11:07:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/posts/python-telegram-bot/</loc>
+    <lastmod>2018-11-22T11:07:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/tags/ade/</loc>
+    <lastmod>2018-11-12T16:02:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/tags/azure/</loc>
+    <lastmod>2018-11-12T16:02:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/posts/ade-for-linux/</loc>
+    <lastmod>2018-11-12T16:02:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/categories/cloud/</loc>
+    <lastmod>2018-11-12T16:02:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/tags/encryption/</loc>
+    <lastmod>2018-11-12T16:02:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/tags/linux/</loc>
+    <lastmod>2018-11-12T16:02:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/posts/theme-demo/</loc>
+    <lastmod>2017-01-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/posts/migrate-from-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.novy.pw/delegate/</loc>
+  </url>
+  
+</urlset>
