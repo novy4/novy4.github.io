@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Telegram on Alex Novacovschi</title>
-    <link>https://novy4.github.io/novy.pw/tags/telegram/</link>
-    <description>Recent content in Telegram on Alex Novacovschi</description>
+    <title>telegram on Alex Novacovschi</title>
+    <link>https://novy4.github.io/tags/telegram/</link>
+    <description>Recent content in telegram on Alex Novacovschi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 22 Nov 2018 11:07:35 +0200</lastBuildDate>
     
-	<atom:link href="https://novy4.github.io/novy.pw/tags/telegram/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://novy4.github.io/tags/telegram/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Telegram bot on python</title>
-      <link>https://novy4.github.io/novy.pw/posts/python-telegram-bot/</link>
+      <link>https://novy4.github.io/posts/python-telegram-bot/</link>
       <pubDate>Thu, 22 Nov 2018 11:07:35 +0200</pubDate>
       
-      <guid>https://novy4.github.io/novy.pw/posts/python-telegram-bot/</guid>
+      <guid>https://novy4.github.io/posts/python-telegram-bot/</guid>
       <description>Introduction Once upon a time I had a need to for a telegram bot that will reposts news from external channels to my own channel to stay up-to-day with news from different sources in one place. Doing some short research, I didn’t found suitable open-source script for my needs and I decided to write my own script on python. It is not ideal, but it works :-)
 There is a library called Telethon  that makes easy to write python applications that can interact with Telegram.</description>
     </item>

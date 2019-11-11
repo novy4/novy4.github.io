@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ade on Alex Novacovschi</title>
-    <link>https://novy4.github.io/novy.pw/tags/ade/</link>
-    <description>Recent content in Ade on Alex Novacovschi</description>
+    <title>ade on Alex Novacovschi</title>
+    <link>https://novy4.github.io/tags/ade/</link>
+    <description>Recent content in ade on Alex Novacovschi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 12 Nov 2018 16:02:23 +0200</lastBuildDate>
     
-	<atom:link href="https://novy4.github.io/novy.pw/tags/ade/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://novy4.github.io/tags/ade/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Azure Disk Encryption for Linux VMs</title>
-      <link>https://novy4.github.io/novy.pw/posts/ade-for-linux/</link>
+      <link>https://novy4.github.io/posts/ade-for-linux/</link>
       <pubDate>Mon, 12 Nov 2018 16:02:23 +0200</pubDate>
       
-      <guid>https://novy4.github.io/novy.pw/posts/ade-for-linux/</guid>
+      <guid>https://novy4.github.io/posts/ade-for-linux/</guid>
       <description>Azure provides disk encryption option for Iaas virtual machines, this is a perfect solution for those who want to keep data encrypted with own keys. Some aspects I would like to clarify here to have a more transparent solution. I have tested and implemented this solution. Ok, lets have some fun&amp;hellip;
 There are some prerequests before we can start to encrypt our disks.  Azure Disk Encryption is only supported on specific Azure Gallery based Linux server distributions and versions.</description>
     </item>
