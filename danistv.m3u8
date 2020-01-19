@@ -1,355 +1,528 @@
 #EXTM3U
+#EXTINF:0 tvg-name="Publika", Publika
+#EXTGRP:DANISTV-MD
+http://195.22.231.222:8081/Publica/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Primul Moldova", Primul Moldova
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Primul_Moldova/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Первый - Prime", Первый - Prime
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Prime_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Canal 2", Canal 2
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Canal_2/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Canal 3", Canal 3
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Canal_3/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Moldova 1", Moldova 1
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Moldova_1/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="NTV Moldova", NTV Moldova
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/NTV_Moldova/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Jurnal TV", Jurnal TV
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Jurnal_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Pro TV Chisinau", Pro TV Chisinau
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Pro_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="CTC Mega", CTC Mega
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/CTC/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="ТНТ - Exclusiv", ТНТ - Exclusiv
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/TNT_Exclusive/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="РТР - TV Com", РТР - TV Com
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/RTR/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="TV 8", TV 8
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/TV8/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Publika", Publika
-http://195.22.231.222:8081/Publica/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="MBC", MBC
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/MBC/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="TVR", TVR
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/TVR/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="РЕН ТВ - Молдова", РЕН ТВ - Молдова
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Ren_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="TVC 21", TVC 21
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/TVC21/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Accent TV", Accent TV
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Accent_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Prim TV", Prim TV
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/TV_Prim/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Orhei TV", Orhei TV
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Orhei_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Televiziunea Centrala", Televiziunea Centrala
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Televiziunea_Centrala/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Vocea Basarabiei", Vocea Basarabiei
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Vocea_Basarabiei/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="N 4", N 4
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/N4/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="RTV", RTV
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Romania_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="ITV", ITV
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/ITV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="5 Канал International", 5 Канал International
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/5_Canal/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="BTV", BTV
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/BTV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Drokia TV", Drokia TV
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Drokia_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Regional", Regional
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Regional/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Sor TV", Sor TV
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Sor_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Мир", Мир
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Mir_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Moldova 2", Moldova 2
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Moldova_2/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="KANAL D", KANAL D
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Canal_D/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Noroc", Noroc
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Noroc/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Zona-M", Zona-M
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Zona_M/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Popas TV", Popas TV
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Popas_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Etno", Etno
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Etno/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Busuioc", Busuioc
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Busuioc/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Taraf", Taraf
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Taraf/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="AGRO", AGRO
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Agro/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="10TV", 10TV
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/10_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Orizont TV", Orizont TV
+#EXTGRP:DANISTV-MD
 http://195.22.231.222:8081/Orizont_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Kazah TV", Kazah TV
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Kazah_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="OSTwest", OSTwest
-http://195.22.231.222:8081/OSTwest/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Bucuresti TV", Bucuresti TV
-http://195.22.231.222:8081/Bucuresti_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Мир premium", Мир premium
-http://195.22.231.222:8081/Mir_premium/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Euronews En", Euronews En
-http://195.22.231.222:8081/Euronews_En/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="TV 5 France", TV 5 France
-http://195.22.231.222:8081/TV5_France/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="France 24 Fra", France 24 Fra
-http://195.22.231.222:8081/France24_FRA/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="France 24 Eng", France 24 Eng
-http://195.22.231.222:8081/France24_ENG/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Deutche welle", Deutche welle
-http://195.22.231.222:8081/DW/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="CNN", CNN
-http://195.22.231.222:8081/CNN/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="News 24", News 24
-http://195.22.231.222:8081/News24/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Euronews", Euronews
-http://195.22.231.222:8081/Euronews/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Мир 24", Мир 24
-http://195.22.231.222:8081/Mir_24/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Настоящее время", Настоящее время
-http://195.22.231.222:8081/Current_time_Nastoeasee_vremea/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Беларусия24", Беларусия24
-http://195.22.231.222:8081/Berarusi24/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Eurosport RO", Eurosport RO
-http://195.22.231.222:8081/Eurosport_RO/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Eurosport RU", Eurosport RU
-http://195.22.231.222:8081/Eurosport_RU/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Eurosport 2", Eurosport 2
-http://195.22.231.222:8081/Eurosport_2/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Спорт 1", Спорт 1
-http://195.22.231.222:8081/Sport_1/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Спорт 2", Спорт 2
-http://195.22.231.222:8081/Sport_2/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Extreme sport", Extreme sport
-http://195.22.231.222:8081/Extreme_sport/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Setanta", Setanta
-http://195.22.231.222:8081/Setanta/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Setanta 1", Setanta 1
-http://195.22.231.222:8081/Setanta_1/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Setanta 2", Setanta 2
-http://195.22.231.222:8081/Setanta_2/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Fightbox", Fightbox
-http://195.22.231.222:8081/Fightbox_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Fast&fanbox", Fast&fanbox
-http://195.22.231.222:8081/Fast_fun_box_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Спорт 1Baltic", Спорт 1Baltic
-http://195.22.231.222:8081/Sport_1_Baltic/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Спорт 1HD", Спорт 1HD
-http://195.22.231.222:8081/Chelsea_TV_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Живая Планета", Живая Планета
-http://195.22.231.222:8081/Zhivaya_Planeta/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Наука 2.0", Наука 2.0
-http://195.22.231.222:8081/Nauka/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Моя Планета", Моя Планета
-http://195.22.231.222:8081/MoyaPlaneta/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Okean", Okean
-http://195.22.231.222:8081/Ocean/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="H2", H2
-http://195.22.231.222:8081/H2/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="History", History
-http://195.22.231.222:8081/History_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Discovery Channel", Discovery Channel
-http://195.22.231.222:8081/Discovery/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="TLC", TLC
-http://195.22.231.222:8081/TLC/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Авто Плюс", Авто Плюс
-http://195.22.231.222:8081/Auto_plus/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="365 Дней", 365 Дней
-http://195.22.231.222:8081/365_Dnei/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="HDmedia", HDmedia
-http://195.22.231.222:8081/Media_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Terra incognito", Terra incognito
-http://195.22.231.222:8081/Terra_Incognita/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Наша Тема", Наша Тема
-http://195.22.231.222:8081/Nasa_Tema/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Диалог о рыбалке", Диалог о рыбалке
-http://195.22.231.222:8081/Dialogi_o_ribalke/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="RTGi", RTGi
-http://195.22.231.222:8081/RTGi/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Travel mix", Travel mix
-http://195.22.231.222:8081/Travel_mix/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Filmbox arthouse", Filmbox arthouse
-http://195.22.231.222:8081/Filmbox_art/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Docubox", Docubox
-http://195.22.231.222:8081/Docubox/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Fashionbox", Fashionbox
-http://195.22.231.222:8081/Fashionbox/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Gametoon", Gametoon
-http://195.22.231.222:8081/Gametoon/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Загородная жизнь", Загородная жизнь
-http://195.22.231.222:8081/Zagorodnaea_jizni/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Мир увлечений", Мир увлечений
-http://195.22.231.222:8081/Mir_uvlecenii/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Мужской", Мужской
-http://195.22.231.222:8081/Mujscoi/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Galaxy", Galaxy
-http://195.22.231.222:8081/Galaxy/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Твой дом", Твой дом
-http://195.22.231.222:8081/Tvoi_dom/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Joy cook", Joy cook
-http://195.22.231.222:8081/Joy_Cook/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Perpetuum mobile", Perpetuum mobile
-http://195.22.231.222:8081/perpetun/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Unknown planet", Unknown planet
-http://195.22.231.222:8081/Neizvestnea_planeta/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Gurinel-TV", Gurinel-TV
-http://195.22.231.222:8081/Gurinel/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Cartoon Network RU", Cartoon Network RU
-http://195.22.231.222:8081/Cartoon_Network_RU/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Cartoon Network RO", Cartoon Network RO
-http://195.22.231.222:8081/Cartoon_Network_RO/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Мульт", Мульт
-http://195.22.231.222:8081/Mulit/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Jim Jam RO", Jim Jam RO
-http://195.22.231.222:8081/Jim_Jam_Ro/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Jim Jam RU", Jim Jam RU
-http://195.22.231.222:8081/Jim_Jam_Ru/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Мультимания", Мультимания
-http://195.22.231.222:8081/Multimania/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Tiji", Tiji
-http://195.22.231.222:8081/Tiji/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Boomerang RU", Boomerang RU
-http://195.22.231.222:8081/Boomerang/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Boomerang RO", Boomerang RO
-http://195.22.231.222:8081/Boomerang_RO/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Детское кино", Детское кино
-http://195.22.231.222:8081/Det_kino/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Сказки зайки", Сказки зайки
-http://195.22.231.222:8081/Scazki_zaiki/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Смайлик ТВ", Смайлик ТВ
-http://195.22.231.222:8081/Smailik_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Детский мир", Детский мир
-http://195.22.231.222:8081/Detskii_Mir/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Советские мульт", Советские мульт
-http://195.22.231.222:8081/Sovetskii_mulit/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="CTC kiss", CTC kiss
-http://195.22.231.222:8081/CTC_kids/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Мультсезон", Мультсезон
-http://195.22.231.222:8081/Mulitsezon/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Gulli girl", Gulli girl
-http://195.22.231.222:8081/Guli_girl/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Ностальгия", Ностальгия
-http://195.22.231.222:8081/Nostalgia/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Ля Минор ТВ", Ля Минор ТВ
-http://195.22.231.222:8081/LyaMinor/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="ТНТ music", ТНТ music
-http://195.22.231.222:8081/TNT_music/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Europa Plus TV", Europa Plus TV
-http://195.22.231.222:8081/Europa_Plus/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Ru TV Moldova", Ru TV Moldova
-http://195.22.231.222:8081/Ru_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Жара", Жара
-http://195.22.231.222:8081/Jara/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Bridge TV", Bridge TV
-http://195.22.231.222:8081/Bridge_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Bridge HD", Bridge HD
-http://195.22.231.222:8081/Bridge_deluxe/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Bridge Hit", Bridge Hit
-http://195.22.231.222:8081/Bridge_hit/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Bridge Classic", Bridge Classic
-http://195.22.231.222:8081/Bridge_classic/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Bridge Ru", Bridge Ru
-http://195.22.231.222:8081/Bridge_ru/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="360tunebox", 360tunebox
-http://195.22.231.222:8081/360tune_box/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Шансон", Шансон
-http://195.22.231.222:8081/Sanson/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="1+1 International", 1+1 International
-http://195.22.231.222:8081/1+1_International/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Inter+", Inter+
-http://195.22.231.222:8081/Inter+/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Анекдот ТВ", Анекдот ТВ
-http://195.22.231.222:8081/Anekdot_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Сарафан", Сарафан
-http://195.22.231.222:8081/Sarafan/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Kvartal TV", Kvartal TV
-http://195.22.231.222:8081/Kvartal_95/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="BOLT", BOLT
-http://195.22.231.222:8081/Bolt/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTGRP:DANISTV
 #EXTINF:0 tvg-name="FILMUADRAMA", FILMUADRAMA
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Film_UA_Drama/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="STAR FAMILY", STAR FAMILY
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/STAR_FAMILY_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="STAR CINEMA", STAR CINEMA
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/STAR_CINEMA_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Кинохит", Кинохит
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/KinoHit/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Кинопремьера", Кинопремьера
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Premiera_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Киносерия", Киносерия
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Kinoseria/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Киномикс", Киномикс
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Kinomix/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Наше Новое Кино", Наше Новое Кино
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Nase_novoe_kino/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Мужское кино", Мужское кино
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Mujscoe_kino/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Родное Кино", Родное Кино
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Rodnoe_Kino/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Кино ТВ", Кино ТВ
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Kino_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Киносемья", Киносемья
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Kinosemia/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Киносвидание", Киносвидание
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Kinosvidanie/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Hollywood", Hollywood
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Hollywood/AMC/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Кинокомедия", Кинокомедия
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Kinocomedia/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Bollywood", Bollywood
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Bollywood_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Иллюзион+", Иллюзион+
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Illuzion+/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Русский Иллюзион", Русский Иллюзион
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Russky_illuzion/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="FAMILIA DOMASHNIY", FAMILIA DOMASHNIY
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/FAMILIA_DOMASHNIY/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Fenix+Kino", Fenix+Kino
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Fenix+Kino/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Pro2", Pro2
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Pro2/Acasa/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Kinosat", Kinosat
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/KinoSat/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Наш Киномир", Наш Киномир
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Nas_Kinomir/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Movie Classic", Movie Classic
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Classic_kino/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="ТеледомТелебом", ТеледомТелебом
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Teledom/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Filmbox", Filmbox
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Filmbox/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Любимое кино", Любимое кино
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Liubimoe_Kino/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Мир сериал", Мир сериал
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Mir_Seriala/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Советское кино", Советское кино
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Sovetscoe_kino/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Кино сезон", Кино сезон
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Kinosezon/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="XXI", XXI
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/TV_XXI/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Quiz TV", Quiz TV
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Quiz_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="8 канал", 8 канал
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/8_canal/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Кино Меню", Кино Меню
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/KinoMenu_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="OSTwest", OSTwest
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/OSTwest/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Bucuresti TV", Bucuresti TV
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Bucuresti_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Мир premium", Мир premium
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Mir_premium/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Euronews En", Euronews En
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Euronews_En/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="TV 5 France", TV 5 France
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/TV5_France/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="France 24 Fra", France 24 Fra
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/France24_FRA/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="France 24 Eng", France 24 Eng
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/France24_ENG/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Deutche welle", Deutche welle
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/DW/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="CNN", CNN
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/CNN/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="News 24", News 24
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/News24/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Euronews", Euronews
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Euronews/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Мир 24", Мир 24
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Mir_24/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Настоящее время", Настоящее время
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Current_time_Nastoeasee_vremea/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Беларусия24", Беларусия24
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Berarusi24/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Eurosport RO", Eurosport RO
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Eurosport_RO/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Eurosport RU", Eurosport RU
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Eurosport_RU/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Eurosport 2", Eurosport 2
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Eurosport_2/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Спорт 1", Спорт 1
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Sport_1/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Спорт 2", Спорт 2
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Sport_2/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Extreme sport", Extreme sport
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Extreme_sport/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Setanta", Setanta
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Setanta/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Setanta 1", Setanta 1
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Setanta_1/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Setanta 2", Setanta 2
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Setanta_2/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Fightbox", Fightbox
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Fightbox_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Fast&fanbox", Fast&fanbox
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Fast_fun_box_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Спорт 1Baltic", Спорт 1Baltic
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Sport_1_Baltic/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Спорт 1HD", Спорт 1HD
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Chelsea_TV_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Живая Планета", Живая Планета
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Zhivaya_Planeta/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Наука 2.0", Наука 2.0
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Nauka/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Моя Планета", Моя Планета
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/MoyaPlaneta/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Okean", Okean
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Ocean/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="H2", H2
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/H2/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="History", History
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/History_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Discovery Channel", Discovery Channel
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Discovery/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="TLC", TLC
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/TLC/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Авто Плюс", Авто Плюс
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Auto_plus/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="365 Дней", 365 Дней
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/365_Dnei/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="HDmedia", HDmedia
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Media_HD/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Terra incognito", Terra incognito
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Terra_Incognita/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Наша Тема", Наша Тема
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Nasa_Tema/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Диалог о рыбалке", Диалог о рыбалке
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Dialogi_o_ribalke/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="RTGi", RTGi
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/RTGi/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Travel mix", Travel mix
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Travel_mix/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Filmbox arthouse", Filmbox arthouse
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Filmbox_art/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Docubox", Docubox
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Docubox/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Fashionbox", Fashionbox
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Fashionbox/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Gametoon", Gametoon
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Gametoon/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Загородная жизнь", Загородная жизнь
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Zagorodnaea_jizni/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Мир увлечений", Мир увлечений
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Mir_uvlecenii/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Мужской", Мужской
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Mujscoi/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Galaxy", Galaxy
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Galaxy/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Твой дом", Твой дом
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Tvoi_dom/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Joy cook", Joy cook
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Joy_Cook/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Perpetuum mobile", Perpetuum mobile
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/perpetun/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Unknown planet", Unknown planet
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Neizvestnea_planeta/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Gurinel-TV", Gurinel-TV
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Gurinel/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Cartoon Network RU", Cartoon Network RU
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Cartoon_Network_RU/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Cartoon Network RO", Cartoon Network RO
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Cartoon_Network_RO/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Мульт", Мульт
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Mulit/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Jim Jam RO", Jim Jam RO
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Jim_Jam_Ro/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Jim Jam RU", Jim Jam RU
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Jim_Jam_Ru/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Мультимания", Мультимания
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Multimania/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Tiji", Tiji
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Tiji/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Boomerang RU", Boomerang RU
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Boomerang/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Boomerang RO", Boomerang RO
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Boomerang_RO/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Детское кино", Детское кино
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Det_kino/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Сказки зайки", Сказки зайки
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Scazki_zaiki/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Смайлик ТВ", Смайлик ТВ
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Smailik_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Детский мир", Детский мир
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Detskii_Mir/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Советские мульт", Советские мульт
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Sovetskii_mulit/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="CTC kiss", CTC kiss
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/CTC_kids/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Мультсезон", Мультсезон
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Mulitsezon/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Gulli girl", Gulli girl
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Guli_girl/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Ностальгия", Ностальгия
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Nostalgia/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Ля Минор ТВ", Ля Минор ТВ
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/LyaMinor/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="ТНТ music", ТНТ music
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/TNT_music/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Europa Plus TV", Europa Plus TV
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Europa_Plus/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Ru TV Moldova", Ru TV Moldova
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Ru_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Жара", Жара
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Jara/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Bridge TV", Bridge TV
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Bridge_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Bridge HD", Bridge HD
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Bridge_deluxe/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Bridge Hit", Bridge Hit
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Bridge_hit/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Bridge Classic", Bridge Classic
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Bridge_classic/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Bridge Ru", Bridge Ru
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Bridge_ru/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="360tunebox", 360tunebox
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/360tune_box/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Шансон", Шансон
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Sanson/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="1+1 International", 1+1 International
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/1+1_International/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Inter+", Inter+
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Inter+/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Анекдот ТВ", Анекдот ТВ
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Anekdot_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Сарафан", Сарафан
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Sarafan/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="Kvartal TV", Kvartal TV
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Kvartal_95/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
+#EXTINF:0 tvg-name="BOLT", BOLT
+#EXTGRP:DANISTV
+http://195.22.231.222:8081/Bolt/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Союз", Союз
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Soyuz/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Credo TV", Credo TV
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Credo_TV/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="CNL", CNL
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/CNL/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Alfa Omega", Alfa Omega
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Alfa_omega/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="ТБН", ТБН
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/TBN/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
 #EXTINF:0 tvg-name="Trinitas", Trinitas
+#EXTGRP:DANISTV
 http://195.22.231.222:8081/Trinitas/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Erox", Erox
-http://195.22.231.222:8081/Erox_Premoi/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
-#EXTINF:0 tvg-name="Eroxxx", Eroxxx
-http://195.22.231.222:8081/Eroxxx_Premoi/video.m3u8?token=0BhIUgTve3fsvdagfdhgtlc
